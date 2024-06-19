@@ -1,0 +1,81 @@
+/* Basic reset styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Header styles */
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(https://static.vecteezy.com/system/resources/previews/008/353/529/original/realistic-smartphone-mockup-presentation-template-clean-minimal-phone-ui-website-landing-page-style-background-with-copy-space-vector.jpg) no-repeat center center/cover;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  padding: 0 80px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background-color: #2F4F4F; /* Added background color for navigation bar */
+  color: white; /* Text color for navigation bar links */
+}
+
+.logo {
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-style: italic;
+  background-color: #ff9f43;
+  padding: 10px 20px;
+  color: white; /* Text color for logo */
+}
+
+.menu a {
+  text-decoration: none;
+  color: white; /* Changed color for menu links */
+  padding: 10px 20px;
+}
+
+.menu a:nth-child(even) {
+  background: #f3f3f3; /* Background color for even menu items */
+  color: black; /* Text color for even menu items */
+  border-radius: 0 30px 0 8px;
+}
+
+.icons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the icons horizontally */
+  bottom: 60px;
+}
+
+.icons i {
+  font-size: 40px;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 15%;
+  color: white; /* Changed color for social icons */
+}
+
+.icons i:nth-child(1) {
+  background: #f368e0;
+}
+
+.icons i:nth-child(2) {
+  background: #1dd1a1;
+  color: white;
+}
+
+.icons i:nth-child(3) {
+  background: #48dbfb;
+  color: white;
+}
+
+.icons i:nth-child(4) {
+  background: #ff9f43;
+}
